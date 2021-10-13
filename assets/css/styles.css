@@ -541,7 +541,7 @@ img {
 .image__title1 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 3px;
+  /* margin: 3px; */
   margin-right: 5px;
   text-decoration: underline;
 }
@@ -550,7 +550,9 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   color: #cccccc;
+  padding: 15px;
 }
 
 .reacte {
@@ -579,14 +581,14 @@ img {
   font-size: 1rem;
   margin-top: 0.25rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .image__description1 {
   font-size: 0.8rem;
   margin-top: 0.25rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .des_pro {
